@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  background-color: #eee;
+  margin-top: 0px;
+}
+.Brands h2 {
+  margin: 1% 0 2% 3%;
+  color: blue;
+}
+.container {
+  display: flex;
+  margin: 0 auto;
+  margin: 0 2% 4% 7%;
+}
+.container div {
+  display: flex;
+  justify-content: space-around;
+  border: lavender solid 1px;
+}
+.container img {
+  width: 190px;
+  height: 75px;
+}
+
+/* footer */
+
+footer {
+  background-color: rgba(83, 83, 145, 0.507);
+  height: 450px;
+  color: rgba(0, 0, 0, 0.671);
+}
+
+.footer-cont {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 20px 15px 0 30px;
+}
+.footer-cont div {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 25%;
+  line-height: 30px;
+  text-align: left;
+}
+.footer-cont h5 {
+  color: blue;
+  margin-top: 5%;
+}
+
+.footer-cont ul {
+  list-style-type: none;
+}
+.footer-cont .ABOUT-THE-STORE {
+  margin-right: 8%;
+}
+
+.ABOUT-THE-STORE a {
+  color: rgb(66, 238, 238);
+  font-size: 22px;
+}
+.POPULAR-COLLECTIONS a,
+.INFORMATION a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.671);
+}
+.POPULAR-COLLECTIONS a:hover,
+.INFORMATION a:hover {
+  color: rgb(66, 238, 238);
+}
+
+.OUR-NEWSLETTER p {
+  margin-bottom: 10px;
+}
+.OUR-NEWSLETTER input {
+  width: 91%;
+  height: 40px;
+  margin-bottom: 8%;
+}
+.OUR-NEWSLETTER button {
+  width: 40%;
+  height: 40px;
+  color: white;
+  font-size: 22px;
+  background-color: rgb(66, 238, 238);
+  border: none;
+}
+
+.last {
+  display: flex;
+  justify-content: space-between;
+  align-items: ;
+  flex-direction: row;
+  /* color: rgba(0, 0, 0, 0.671); */
+  margin-top: 80px;
+}
+.rights {
+  margin-left: 5%;
+}
+.Follow {
+  margin-right: 40px;
+}
+.Accept {
+  margin-right: 8%;
+}
+.Follow i {
+  margin: 10px 10px 10px 0;
+  padding: 10px 10px;
+  border-radius: 50%;
+  color: white;
+  background-color: slategrey;
+  font-size: 20px;
+}
+.Follow i:hover {
+  background-color: #c48129;
+}
+.Accept i {
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 30px;
+  color: rgb(99, 53, 121);
+}
