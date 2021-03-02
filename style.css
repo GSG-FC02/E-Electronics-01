@@ -82,3 +82,37 @@
 .buttonStart:hover {
   background-color: #FF2E63;
 }
+
+/* Most popular */
+
+.popular-title{
+  color: #2aa6af;
+  text-align: center;
+}
+
+.Container {
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    margin:0 30px;
+}
+
+.menu-img{
+    display: flex;           /*for (menu img ) to be Next to each other*/
+    flex-direction: column;  /*for (menu txt) to be under the menu img*/
+    padding: 10px;           /*to have a space between (menu images) */
+    flex-wrap: nowrap;
+    text-align: left;
+    width: 30%;
+}
+
+.gallery-title{
+  margin-top:15px;           /*to have a space between (gallery-title) and menu img*/
+  color: #2aa6af;
+  margin-bottom: 15px;       /*to have a space between (gallery-title) and (p)*/
+}
+
+.price{
+  margin-top:15px;           /*to have a space between (price) and (p)*/
+  color: #2aa6af;            
+}
