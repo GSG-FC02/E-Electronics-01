@@ -116,3 +116,28 @@
   margin-top:15px;           /*to have a space between (price) and (p)*/
   color: #2aa6af;            
 }
+.qout-container{
+  height: 400px;
+  width: auto;
+  color: white;
+  text-align: center;
+  background: url(/images/promotion_600x.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 150px;
+}
+.qout_title {
+font-size: 30px;
+font-weight: 600;
+padding: 120px 0 10px 0;
+font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.qout_content{
+ font-size: 30px;
+ padding: 10px;
+ width: 70%;
+ text-align: center;
+ margin: 0 auto;
+}
