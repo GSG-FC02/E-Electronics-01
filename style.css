@@ -1,0 +1,40 @@
+/* header*/
+.main{
+    background-color: #eee;
+  }
+  .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-color: hsl(0, 0%, 0%);
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      z-index: 20;
+      justify-content: space-between;
+      padding: 0.3rem;
+      align-items: center;
+  }
+  .navbar ul {
+      list-style: none;
+      display: flex;
+      width: 40%;
+      justify-content: space-around;
+  }
+  
+  .navbar a {
+      padding: 1.5em 0;
+      text-decoration: none;
+  }
+  
+  .navbar a:hover {
+      color: #2aa6af;
+  }
+  .navbar .logo img{
+      width: 80px
+  }
+  
+  a:link {
+      color: #FFFFFF;
+  }
