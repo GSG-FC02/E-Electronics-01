@@ -38,3 +38,47 @@
   a:link {
       color: #FFFFFF;
   }
+
+  /* background */
+.Header-container{
+	text-align: center;
+	margin-top: 100px;  
+}
+
+.phone-img{
+  position: relative;
+  z-index: 1;
+  top: -40px; left:507px;
+}
+
+.collection-img{
+  position: absolute;
+  z-index: 10;
+  top: 150px; left: 550px;
+  width: 40%;
+  height: 50%;
+}
+
+.Heading-title{
+  position: relative;
+  z-index: 15;
+  top: -400px; left:-300px;
+  color: #2aa6af;
+}
+
+.buttonStart {
+  /* background-image: linear-gradient(to right, hsl(176, 68%, 64%),hsl(198, 60%, 50%));   */
+  position: relative;
+  z-index: 15;
+  top: -370px; left:-500px;
+  background-color: #2aa6af;
+  padding: 0.5rem 3rem;
+  cursor: pointer;
+  border-radius:25px;
+  color: #fff;
+  border: 1px solid ;
+}
+
+.buttonStart:hover {
+  background-color: #FF2E63;
+}
