@@ -219,9 +219,9 @@ font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 .qout_content{
  font-size: 30px;
  padding: 10px;
- width: 70%;
+ width: 100%;
  text-align: center;
- margin: 0 auto;
+ margin: 0 auto;}
 /* ======= */
 #about-info .about-content .about-prag span {
   text-transform: uppercase;
@@ -292,4 +292,13 @@ font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 #catecory-info .name5 {
   padding-top: 1.6rem;
 /* >>>>>>> 26c7005ca71499dade31b90afb175e59883a7973 */
+}
+
+@media screen and(max-width: 768px) {
+  .pageHeader{
+    flex-direction: column;
+  }
+  .navbar{
+    width: 100%;
+  }
 }
