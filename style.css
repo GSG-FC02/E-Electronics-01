@@ -1,3 +1,10 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 body {
   background: #eee;
 }
@@ -101,7 +108,7 @@ body {
 }
 
 .buttonStart:hover {
-  background-color: #ff2e63;
+  background-color: #c48129;
 }
 
 /* Most popular */
@@ -616,6 +623,7 @@ span {
 .brands h2 {
   margin: 1% 0 2% 3%;
   color: #2aa6af;
+
 }
 .brands-container {
   display: flex;
@@ -685,6 +693,7 @@ footer {
   margin-bottom: 10px;
 }
 .our-newsletter input {
+
   width: 91%;
   height: 40px;
   margin-bottom: 8%;
@@ -717,6 +726,7 @@ footer {
   margin-right: 8%;
 }
 .follow i {
+
   margin: 10px 10px 10px 0;
   padding: 10px 10px;
   border-radius: 50%;
